@@ -1973,7 +1973,10 @@ while true; do
   local -i num_lines=2 empty_line=0 color=2 left_frame=1 right_frame=1 transient_prompt=0
   local -i cap_diamond=0 cap_python=0 cap_debian=0 cap_lock=0 cap_arrow=0
   local -a extra_icons=('' '' '')
-  local -a frame_color=(244 242 240 238)
+  # local -a frame_color=(244 242 240 238)
+  local -a frame_color=(002 002 002 002)
+
+
   local -a color_name=(Lightest Light Dark Darkest)
   local -a prefixes=('' '')
   local -a options=()
